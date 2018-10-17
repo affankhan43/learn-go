@@ -1,7 +1,8 @@
-<img src="python.png" align="right" />
+<img src="golang.png" align="right" />
 
 # Learning GO [![go](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/affankhan43/learn-python)
-> GO
+> Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+
 ## What we learn 
 - Print "Hello World"
 
