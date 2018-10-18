@@ -5,6 +5,7 @@
 
 ## What we learn 
 - Print "Hello World"
+- Variables
 
 ## Contribute
 
