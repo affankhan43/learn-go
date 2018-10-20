@@ -2,6 +2,7 @@ package main
 
 import (
 "fmt"
+"encoding/json"
 )
 
 func main() {
@@ -70,4 +71,10 @@ func main() {
         b=false
         fmt.Println(a,b)
     /* Boolean End */
+
+    mapD := make(map[string]string)
+    mapD["k"]="a"
+    mapD["aa"]="asd"
+    mapB,_ := json.Marshal(mapD)
+    fmt.Println(string(mapB))
 }
