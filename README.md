@@ -6,6 +6,7 @@
 ## What we learn 
 - Print "Hello World"
 - Variables
+- Array's
 
 ## Contribute
 

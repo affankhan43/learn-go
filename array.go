@@ -3,7 +3,7 @@ package main
 import (
 "fmt"
 // "bytes"
-// "encoding/json"
+"encoding/json"
 // "math/big"
 //"math"
 )
@@ -26,5 +26,16 @@ func main() {
         arr1=append(arr1,row2)
         fmt.Println(arr1)
     /* Simple Array END */
+
+    /* 2D Array */
+        twoDarray:=[][]string{}
+        first:=[]string{"hello","world","go"}
+        second:=[]string{"ready","get","set","go"}
+        twoDarray=append(twoDarray,first)
+        twoDarray=append(twoDarray,second)
+        fmt.Println(twoDarray)
+        jsonString,_:=json.Marshal(twoDarray)
+        fmt.Println(string(jsonString))
+    /* 2D Array End*/
 
 }
