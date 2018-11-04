@@ -5,8 +5,6 @@ import (
 )
 
 func main() {
-	var enter int
-	fmt.Println("Hello, World!");
-	fmt.Scan(&enter)
-	fmt.Printf("%d",enter)
+	
+	fmt.Println("Hello, World!")
 }
