@@ -7,6 +7,7 @@
 - Print "Hello World"
 - Variables
 - Array's
+- Map's
 
 ## Contribute
 
