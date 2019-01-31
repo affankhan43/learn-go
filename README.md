@@ -8,6 +8,7 @@
 - Variables
 - Array's
 - Map's
+- Gorutines
 
 ## Contribute
 
